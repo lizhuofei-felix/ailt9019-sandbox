@@ -2,6 +2,9 @@
 
 A small, dependency-free page that converts HKD to USD.
 
+## About Me
+A statistics undergraduate student at the University of Hong Kong.
+
 ## Run the page
 
 From this folder, run:

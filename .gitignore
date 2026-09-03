@@ -13,3 +13,6 @@ __pycache__/
 
 # Local temporary files
 tmp/
+
+# macOS Finder metadata
+.DS_Store

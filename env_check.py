@@ -1,5 +1,11 @@
 import os
 import sys
 
-name = sys.argv[1] if len(sys.argv) > 1 else "AILT9019_PRACTICE_FLAG"
-print(name in os.environ)
+if len(sys.argv) > 1:
+    name = sys.argv[1]
+else:
+    name = "AILT9019_PRACTICE_FLAG"
+
+exists = name in os.environ
+
+print(exists)
